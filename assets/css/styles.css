@@ -49,7 +49,7 @@ header {
 
     text-decoration: none;
     padding: 20px;
-    display: block;
+    display: inline-block;
     color:white;
 
 }
