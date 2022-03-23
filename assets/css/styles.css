@@ -132,8 +132,8 @@ header {
 
 .form-registro .boton-registro {
     width: 100%;
-    background: #1f53c5;
-    border: none;
+    background: black;
+    border: 2px solid white;
     padding: 12px;
     color: white;
     margin: 0 0;
@@ -144,7 +144,11 @@ header {
 
 
 .form-registro .boton-registro:hover{
-    background-image: linear-gradient(to right top, #e12790, #ce2ea1, #b638b1, #9843bd, #734cc7, #5b60d6, #3d72e0, #0081e7, #009ef1, #00b7ee, #00cde3, #55e1d8);
+  background: #ff96ad;
+  box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+  border: 2px solid black;
+  color:black;  
+
 }
 
 .titulo-main{
