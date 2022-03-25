@@ -4,6 +4,48 @@
     box-sizing: border-box;
 }
 
+
+@keyframes cambioFondoPantalla{
+  
+  0%{
+    background: url('../image/fondo_pantalla_bar.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+  }
+
+  25%{
+    background: url('../image/fondo_pantalla_bar_apagado.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+  }
+
+  50%{
+    background: url('../image/fondo_pantalla_bar_blanco_negro.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+  }
+
+  75%{
+    background: url('../image/fondo_pantalla_bar_apagado.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+  }
+
+
+  100%{
+    background: url('../image/fondo_pantalla_bar.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+  }
+
+}
+
+
 body{
 
     background: black url('../image/fondo_pantalla_bar.jpg');
@@ -13,6 +55,9 @@ body{
     font-family: 'Russo One', sans-serif;
     font-size: 15px;
     color: white;
+    animation-name: cambioFondoPantalla;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     
     
 }
