@@ -363,7 +363,7 @@ header {
     
     50%{
       transform: translateY(50px);
-      background: black;
+      
     }
     
     100%{
@@ -374,6 +374,7 @@ header {
 
   #hero .btn-services {
     border: 2px solid #fff;
+    border-radius: 100px;
     color: #fff;
     animation-name: mover;
     animation-duration: 5s;
@@ -384,6 +385,7 @@ header {
     background: white;
     color:black;
     border: 2px solid black;
+    border-radius: 100px;
     
   }
   
