@@ -1,3 +1,14 @@
+:root {
+  --principal: #000000;
+  --secondary: #bcc7c7;
+  --tertiary: #cfe600;
+  --quaternary: #f0ffff;
+  --font-primary: "Architects Daughter", cursive;
+  --clr-primary-hover: #cfe600;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -115,20 +126,6 @@ header {
     background-image: linear-gradient(to right top, #e12790, #ce2ea1, #b638b1, #9843bd, #734cc7, #5b60d6, #3d72e0, #0081e7, #009ef1, #00b7ee, #00cde3, #55e1d8);
     border-radius: 25px;
     opacity: 2px;
-}
-
-.logo {
-
-
-    
-    width: 25%;
-    max-width: 250px;
-    height: 250px;
-    left: 508px;
-    top: 229px;
-    background: url('../image/logo_sula.png');
-    
-
 }
 
 .header .navbar{
@@ -457,3 +454,13 @@ header {
 
 }
 
+
+.footer {
+  display: grid;
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  bottom: 0%;
+}
