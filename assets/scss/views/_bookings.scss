@@ -1,0 +1,85 @@
+@keyframes cambioColor{
+
+  0%{
+    background: #1c7293; 
+  }
+  25%{
+    background: #065a82;
+  }
+  50%{
+    background: #1b3b6f;
+  }
+  100%{
+    background: #21295c;
+  }
+
+
+}
+
+.form-registro {
+    width: 400px;
+    height: 400px;
+    background: $colorAzulado; 
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-family: $font-family-RussoOne;
+    color:$colorBlanco;
+    box-shadow: 7px 13px 37px $colorGrisaceo;
+    border: 2px solid $colorNegro;
+    animation-name: cambioColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
+}
+
+.form-registro h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controles {
+    width: 100%;
+    display: block;
+    background:$colorBlanco;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid $colorNegro;
+    font-family: $font-family-calibri;
+    font-size: 18px;
+    color: $colorNegro;
+}
+
+
+.controles:focus{
+  border: 3px solid red;
+}
+
+
+.form-registro .boton-registro {
+    width: 100%;
+    background: $colorNegro;
+    border: 2px solid $colorBlanco; 
+    padding: 3px;
+    color: $colorBlanco; 
+    margin: 0 0;
+    font-size: 16px;
+    font-family: $font-family-RussoOne;
+    transition:all 0.5s linear;
+    
+
+}
+
+
+.form-registro .boton-registro:hover{
+  background: $colorRosa;
+  box-shadow: 0 0 5px $colorRosa, 0 0 25px $colorRosa, 0 0 50px $colorRosa, 0 0 200px $colorRosa;
+  border: 2px solid $colorNegro;
+  color:$colorNegro;  
+  
+
+}

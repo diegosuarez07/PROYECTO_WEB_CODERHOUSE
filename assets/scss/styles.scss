@@ -1,0 +1,15 @@
+//Variables
+@import './misc/variables'; 
+
+//Normalize 
+@import './misc/normalize'; 
+
+//Partials
+@import './partials/header'; 
+@import './partials/footer'; 
+
+//Views
+@import './views/home';
+@import './views/bookings'; 
+@import './views/gallery'; 
+@import './views/about_us'; 

@@ -1,0 +1,65 @@
+/* Normalize */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@keyframes cambioFondoPantalla{
+  
+  0%{
+    background: $fondoPantallaBar;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+  }
+
+  25%{
+    background: $fondoPantallaApagado;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+  }
+
+  50%{
+    background: $fondoPantallaBlancoNegro;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+  }
+
+  75%{
+    background: $fondoPantallaApagado; 
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+  }
+
+
+  100%{
+    background:$fondoPantallaBar;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+  }
+
+}
+
+
+body{
+
+    background:$fondoPantallaBar;
+    background-repeat:no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;
+    font-family:$font-family-RussoOne;
+    font-size: 15px;
+    color:$colorBlanco;
+    animation-name: cambioFondoPantalla;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+    
+}
