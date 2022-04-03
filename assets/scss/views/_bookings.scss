@@ -37,10 +37,12 @@
 
 }
 
-.form-registro h3{
+.form-registro {
+  h3{
     font-size: 22px;
     margin-bottom: 20px;
     text-align: center;
+  }
 }
 
 .controles {
@@ -56,33 +58,30 @@
       size: 18px;
     }
     color: $colorNegro;
-}
-
-
-.controles:focus{
-  border: 3px solid red;
-}
-
-
-.form-registro .boton-registro {
-    width: 100%;
-    background: $colorNegro;
-    border: 2px solid $colorBlanco; 
-    padding: 3px;
-    color: $colorBlanco; 
-    margin: 0 0;
-    font: {
-      size: 16px;
-      family: $font-family-RussoOne;
+    &:focus{
+      border: 3px solid red;
     }
-    transition:all 0.5s linear;
-
 }
 
-
-.form-registro .boton-registro:hover{
-  background: $colorRosa;
-  box-shadow: 0 0 5px $colorRosa, 0 0 25px $colorRosa, 0 0 50px $colorRosa, 0 0 200px $colorRosa;
-  border: 2px solid $colorNegro;
-  color:$colorNegro;  
+.form-registro {
+    .boton-registro{
+      width: 100%;
+      background: $colorNegro;
+      border: 2px solid $colorBlanco; 
+      padding: 3px;
+      color: $colorBlanco; 
+      margin: 0 0;
+      font: {
+        size: 16px;
+        family: $font-family-RussoOne;
+      }
+      transition:all 0.5s linear;
+      &:hover{
+        background: $colorRosa;
+        box-shadow: 0 0 5px $colorRosa, 0 0 25px $colorRosa, 0 0 50px $colorRosa, 0 0 200px $colorRosa;
+        border: 2px solid $colorNegro;
+        color:$colorNegro;  
+      }
+    }
 }
+

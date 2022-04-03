@@ -76,11 +76,10 @@ header {
   padding: 20px;
   display: inline-block;
   color: #fff; }
-
-.navbar .navbar-menu .navbar-item a:hover {
-  background-image: linear-gradient(to right top, #e12790, #ce2ea1, #b638b1, #9843bd, #734cc7, #5b60d6, #3d72e0, #0081e7, #009ef1, #00b7ee, #00cde3, #55e1d8);
-  border-radius: 25px;
-  opacity: 2px; }
+  .navbar .navbar-menu .navbar-item a:hover {
+    background-image: linear-gradient(to right top, #e12790, #ce2ea1, #b638b1, #9843bd, #734cc7, #5b60d6, #3d72e0, #0081e7, #009ef1, #00b7ee, #00cde3, #55e1d8);
+    border-radius: 25px;
+    opacity: 2px; }
 
 .header .navbar {
   background: transparent;
@@ -95,10 +94,9 @@ header {
   height: 30px;
   padding: 10px;
   border-right: 1px solid #fff; }
-
-.label_menu:hover {
-  cursor: pointer;
-  background: transparent; }
+  .label_menu:hover {
+    cursor: pointer;
+    background: transparent; }
 
 @media screen and (max-width: 768px) {
   .label_menu {
@@ -222,12 +220,11 @@ header {
   animation-name: mover;
   animation-duration: 5s;
   animation-iteration-count: infinite; }
-
-#hero .btn-services:hover {
-  background: white;
-  color: #000;
-  border: 2px solid #000;
-  border-radius: 100px; }
+  #hero .btn-services:hover {
+    background: white;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 100px; }
 
 .logo-actions {
   border: 5px solid #fff;
@@ -275,9 +272,8 @@ header {
   font-family: "calibri";
   font-size: 18px;
   color: #000; }
-
-.controles:focus {
-  border: 3px solid red; }
+  .controles:focus {
+    border: 3px solid red; }
 
 .form-registro .boton-registro {
   width: 100%;
@@ -289,18 +285,16 @@ header {
   font-size: 16px;
   font-family: "Russo One", sans-serif;
   transition: all 0.5s linear; }
-
-.form-registro .boton-registro:hover {
-  background: #ff96ad;
-  box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
-  border: 2px solid #000;
-  color: #000; }
+  .form-registro .boton-registro:hover {
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+    border: 2px solid #000;
+    color: #000; }
 
 .titulo-galeria {
   text-align: center; }
-
-.titulo-galeria:hover {
-  color: #c44343; }
+  .titulo-galeria:hover {
+    color: #c44343; }
 
 .galeria-contenedor {
   display: grid;

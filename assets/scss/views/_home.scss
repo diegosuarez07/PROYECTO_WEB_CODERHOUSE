@@ -6,23 +6,26 @@
   background-size: cover;
 }
 
-#hero .hero-container {
-  background: $fondoTranparente; 
-  display: table-cell;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  vertical-align: middle;
-  
+#hero {
+  .hero-container{
+    background: $fondoTranparente; 
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+  }
 }
 
-#hero h1 {
-  margin: 30px 0 10px 0;
-  font-weight: 700;
-  line-height: 48px;
-  text-transform: uppercase;
-  color:$colorBlanco;
-}
+#hero {
+    h1{
+      margin: 30px 0 10px 0;
+      font-weight: 700;
+      line-height: 48px;
+      text-transform: uppercase;
+      color:$colorBlanco;
+    }
+  }
 
 @media (max-width: 768px) {
   #hero h1 {
@@ -31,9 +34,11 @@
   }
 }
 
-#hero h2 {
-  color: $colorGrisaceo;
-  margin-bottom: 50px;
+#hero {
+  h2 {
+    color: $colorGrisaceo;
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -75,29 +80,38 @@
 
 }
 
-#hero .hero-container .actions .logo-actions {
-
-  animation: {
-    name: rotacion;
-    duration: 12s;
-    iteration-count: infinite;
-  }
+#hero {
+    .hero-container{
+        .actions{
+            .logo-actions{
+                animation: {
+                  name: rotacion;
+                  duration: 12s;
+                  iteration-count: infinite;
+              }
+            }
+        }
+    }
 }
 
-#hero .actions a {
-  font: {
-    family: $font-family-RussoOne;
-    weight: 500px;
-    size: 25px;
+#hero {
+  .actions{
+    a{
+      font: {
+        family: $font-family-RussoOne;
+        weight: 500px;
+        size: 25px;
+      }
+      
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 8px 20px;
+      border-radius: 2px;
+      transition: 0.5s;
+      margin: 10px;
+    }
   }
-  
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 20px;
-  border-radius: 2px;
-  transition: 0.5s;
-  margin: 10px;
 }
 
 @keyframes mover{
@@ -116,23 +130,23 @@
 }
 
 
-#hero .btn-services {
-  border: 2px solid $colorBlanco;
-  border-radius: 100px;
-  color: $colorBlanco;
-  animation: {
-    name: mover;
-    duration: 5s;
-    iteration-count: infinite;
-  }
-}
-
-#hero .btn-services:hover {
-  background: white;
-  color:$colorNegro;
-  border: 2px solid $colorNegro;
-  border-radius: 100px;
-  
+#hero {
+    .btn-services{
+      border: 2px solid $colorBlanco;
+      border-radius: 100px;
+      color: $colorBlanco;
+      animation: {
+        name: mover;
+        duration: 5s;
+        iteration-count: infinite;
+      }
+      &:hover{
+        background: white;
+        color:$colorNegro;
+        border: 2px solid $colorNegro;
+        border-radius: 100px;
+      }
+    }
 }
 
 .logo-actions {

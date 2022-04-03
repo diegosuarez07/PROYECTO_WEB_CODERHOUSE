@@ -1,9 +1,8 @@
 .titulo-galeria{
     text-align: center;
-  }
-  
-  .titulo-galeria:hover{
-    color:rgb(196, 67, 67)
+    &:hover{
+      color:rgb(196, 67, 67); 
+    }
   }
   
   .galeria-contenedor{

@@ -25,50 +25,54 @@ header {
 
 .navbar-item {
 
-display: inline-block;
-text-align: center;
+  display: inline-block;
+  text-align: center;
 }
 
-.navbar .navbar-menu .navbar-item a {
+.navbar 
+    {
+      .navbar-menu {
+          .navbar-item {
+            a {
+              text-decoration: none;
+              padding: 20px;
+              display: inline-block;
+              color:$colorBlanco;
+              &:hover{
+                background-image: $fondoBotonesBarraNavegacion; 
+                border-radius: 25px;
+                opacity: 2px;
+              }
+            }
+          }
+        }
+    } 
 
-    text-decoration: none;
-    padding: 20px;
-    display: inline-block;
-    color:$colorBlanco;
-    
 
-}
-
-.navbar .navbar-menu .navbar-item a:hover{
-
-    
-    background-image: $fondoBotonesBarraNavegacion; 
-    border-radius: 25px;
-    opacity: 2px;
-}
-
-.header .navbar{
+.header {
+  .navbar {
     background:$fondoTranparente; 
     border-radius: 25px;
+  }
 }
 
 
 .btn_menu {
     display: none;
-  }
+}
   
-  .label_menu {
+.label_menu {
     display: none;
     width: 30px;
     height: 30px;
     padding: 10px;
     border-right: 1px solid $colorBlanco;
-  }
-  
-  .label_menu:hover{
-    cursor: pointer;
-    background:$fondoTranparente;
-  }
+    &:hover{
+      cursor: pointer;
+      background:$fondoTranparente;
+    }
+}
+
   
   @media screen and (max-width:768px) {
   
