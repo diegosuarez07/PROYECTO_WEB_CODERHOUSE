@@ -77,18 +77,21 @@
 
 #hero .hero-container .actions .logo-actions {
 
-  animation-name: rotacion;
-  animation-duration: 12s;
-  animation-iteration-count: infinite;
-
-
+  animation: {
+    name: rotacion;
+    duration: 12s;
+    iteration-count: infinite;
+  }
 }
 
 #hero .actions a {
-  font-family: $font-family-RussoOne;
+  font: {
+    family: $font-family-RussoOne;
+    weight: 500px;
+    size: 25px;
+  }
+  
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 25px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 20px;
@@ -117,9 +120,11 @@
   border: 2px solid $colorBlanco;
   border-radius: 100px;
   color: $colorBlanco;
-  animation-name: mover;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+  animation: {
+    name: mover;
+    duration: 5s;
+    iteration-count: infinite;
+  }
 }
 
 #hero .btn-services:hover {

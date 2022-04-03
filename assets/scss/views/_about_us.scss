@@ -27,8 +27,12 @@
     margin-top: 10px;
     border: 3px solid $colorBlanco;
     border-radius: 10px;
-    border-left: 50px;
-    border-right: 50px;
-    padding-left: 4px;
-    padding-right: 4px;
+    border: {
+      left: 50px;
+      right: 50px;
+    }
+    padding: {
+      left: 4px;
+      right: 4px;
+    }
   }

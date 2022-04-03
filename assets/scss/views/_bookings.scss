@@ -28,10 +28,12 @@
     color:$colorBlanco;
     box-shadow: 7px 13px 37px $colorGrisaceo;
     border: 2px solid $colorNegro;
-    animation-name: cambioColor;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-
+    animation: {
+      name: cambioColor;
+      duration: 5s;
+      iteration-count: infinite;
+    }
+    
 
 }
 
@@ -49,8 +51,10 @@
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid $colorNegro;
-    font-family: $font-family-calibri;
-    font-size: 18px;
+    font: {
+      family: $font-family-calibri;
+      size: 18px;
+    }
     color: $colorNegro;
 }
 
@@ -67,10 +71,11 @@
     padding: 3px;
     color: $colorBlanco; 
     margin: 0 0;
-    font-size: 16px;
-    font-family: $font-family-RussoOne;
+    font: {
+      size: 16px;
+      family: $font-family-RussoOne;
+    }
     transition:all 0.5s linear;
-    
 
 }
 
@@ -80,6 +85,4 @@
   box-shadow: 0 0 5px $colorRosa, 0 0 25px $colorRosa, 0 0 50px $colorRosa, 0 0 200px $colorRosa;
   border: 2px solid $colorNegro;
   color:$colorNegro;  
-  
-
 }
