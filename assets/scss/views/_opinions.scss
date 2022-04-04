@@ -1,14 +1,37 @@
-.opiniones-contenedor {
-  display: grid;
-  grid: {
-    template-columns: repeat(3,1fr);
-    auto-rows: 150px;
-    gap:10px;
-  }
-  
+.nombre-cliente {
+    color:$colorVioleta; 
 }
 
-.opinion-item{
-  background:white;
-  padding: 1em;
+.cliente {
+    display: flex;
+    justify-content: center;
+    margin: {
+        top:20px;
+        bottom: 20px;
+    }
+    
+    
+}
+
+.foto-cliente{
+    margin: {
+        right: 10px;
+        left: 10px;
+    }
+}
+
+.review {
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background: black;
+}
+
+.grupo-cliente{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-coloreado{
+    color:$colorVioleta;
 }

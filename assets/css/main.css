@@ -40,9 +40,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  color: #fff;
   font-family: "Russo One", sans-serif;
   font-size: 15px;
-  color: #fff;
   animation-name: cambioFondoPantalla;
   animation-duration: 10s;
   animation-iteration-count: infinite; }
@@ -416,15 +416,31 @@ header {
   padding-left: 4px;
   padding-right: 4px; }
 
-.span-titulo {
+.sula-coloreado {
   color: #D344FF; }
 
-.opiniones-contenedor {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 150px;
-  grid-gap: 10px; }
+.nombre-cliente {
+  color: #D344FF; }
 
-.opinion-item {
-  background: white;
-  padding: 1em; }
+.cliente {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.foto-cliente {
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.review {
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  background: black; }
+
+.grupo-cliente {
+  display: flex;
+  flex-direction: column; }
+
+.titulo-coloreado {
+  color: #D344FF; }

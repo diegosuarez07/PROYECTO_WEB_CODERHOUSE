@@ -68,12 +68,14 @@ body{
       attachment: fixed;
     }
     
+    color: $colorBlanco;
+    
     font: {
         family:$font-family-RussoOne;
         size: 15px; 
     }
 
-    color:$colorBlanco;
+    
     
     animation: {
       name: cambioFondoPantalla;

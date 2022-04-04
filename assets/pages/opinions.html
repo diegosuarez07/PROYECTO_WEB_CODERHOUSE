@@ -8,20 +8,18 @@
     <title>OPINIONES</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="preload" href="../css/styles.css" as="style">
-    <link rel="preload" href="../css/styles.css" as="style">
-    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Permanent+Marker&family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <nav class="navbar navbar-expand-lg">
             <ul class="navbar-menu navbar-expand-lg navbar-nav">
-                <li class="navbar-item"><img src="../image/logo_sula.png" alt="logo" width="80px" height="80px"></li>
+                <li class="navbar-item"><img class="logo-redondeado" src="../image/logo_sula.png" alt="logo" width="80px" height="80px"></li>
                 <li class="navbar-item"><a href="../../index.html" class="enlace">HOME</a></li>
                 <li class="navbar-item"><a href="../pages/bookings.html" class="enlace">RESERVAR MESA</a></li>
                 <li class="navbar-item"><a href="../pages/gallery.html" class="enlace">GALERÍA</a></li>
-                <li class="navbar-item"><a href="#">OPINIONES</a></li>
+                <li class="navbar-item"><a class="active" href="#">OPINIONES</a></li>
                 <li class="navbar-item"><a href="../pages/about_us.html" class="enlace">ACERCA DE NOSOTROS!</a></li>
                 <li class="navbar-item"><a href="#"><img src="../icons/icono_instagram.png" alt="facebook" width="30px" height="30px"></a></li>
                 <li class="navbar-item"><a href="#"><img src="../icons/icono_facebook.png" alt="facebook" width="30px" height="30px"></a></li>
@@ -30,8 +28,84 @@
         </nav>
     </header>
     <main>
-    <h1 class="titulo text-center">OPINIONES DE NUESTROS CLIENTES</h1>
+    <section class="reviews">
 
+        <div class="container text-center">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="titulo-opiniones">LO QUE NUESTROS CLIENTES DICEN DE <span class="titulo-coloreado">SULA!</span>🧐</h3>
+                </div>
+            </div>
+            <div class="cliente">
+                <div class="row">
+                    <div class="col-md-12 cliente">
+                        <div class="foto-cliente">
+                            <img class="logo-actions" src="../image/opinion_clienta2.jpg" alt="cliente 1" width="100px" height="100px">
+                        </div>
+                        <div class="review">
+                            <p class="texto">"Pasé una noche espectacular"</p>
+                            <p class="nombre-cliente">Luz Medina - 23 años</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 cliente">
+                        <div class="review">
+                            <p class="texto">"Sin dudas volvería"</p>
+                            <p class="nombre-cliente">Tomás Fernandez - 27 años</p>
+                        </div>
+                        <div class="foto-cliente">
+                            <img class="logo-actions" src="../image/opinion_cliente3.jpg" alt="cliente 1" width="100px" height="100px">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 cliente">
+                        <div class="foto-cliente">
+                            <img class="logo-actions" src="../image/opinion_cliente.jpg" alt="cliente 1" width="100px" height="100px">
+                        </div>
+                        <div class="review">
+                            <p class="texto">"Quiero comer las hamburguesas de Sula todos los dias jajaja"</p>
+                            <p class="nombre-cliente">Damian Becerra - 32 años</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 cliente">
+                        <div class="review">
+                            <p class="texto">"Muy lindo lugar, la pase genial"</p>
+                            <p class="nombre-cliente">Sofia Marengo - 21 años</p>
+                        </div>
+                        <div class="foto-cliente">
+                            <img class="logo-actions" src="../image/opinion_clienta.jpg" alt="cliente 1" width="100px" height="100px">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 cliente">
+                        <div class="foto-cliente">
+                            <img class="logo-actions" src="../image/opinion_clienta3.jpg" alt="cliente 1" width="100px" height="100px">
+                        </div>
+                        <div class="review">
+                            <p class="texto">"Me encantó todo!"</p>
+                            <p class="nombre-cliente">Florencia Lopez - 30 años</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 cliente">
+                        <div class="review">
+                            <p class="texto">"Un 10 a las papas con cheddar y a la atención"</p>
+                            <p class="nombre-cliente"> - Gastón Orozco - 26 años - </p>
+                        </div>
+                        <div class="foto-cliente">
+                            <img class="logo-actions" src="../image/opinion_cliente4.jpg" alt="cliente 1" width="100px" height="100px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+        </div>
+
+    </section>
+    </main>
     <footer class="footer">
         <div class="row">
             <div class="col">
@@ -46,5 +120,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    
 </body>
 </html>
