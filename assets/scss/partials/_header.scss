@@ -2,7 +2,7 @@ header {
     width: 100%;
     background:$fondoTranparente;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: .5rem 2rem;
 }
@@ -29,9 +29,15 @@ header {
   text-align: center;
 }
 
+
+
+.navbar-item-logo{
+  cursor: pointer;
+  border-radius: 2px;
+}
+
 .navbar 
-    {
-      .navbar-menu {
+    { .navbar-menu {
           .navbar-item {
             a {
               text-decoration: none;
@@ -43,11 +49,18 @@ header {
                 border-radius: 25px;
                 opacity: 2px;
               }
+
+              &.active{
+                text-decoration: underline;
+              }
             }
           }
         }
     } 
 
+.logo-redondeado {
+  border-radius: 40px;
+}
 
 .header {
   .navbar {
@@ -100,4 +113,6 @@ header {
     }
   
   }
+
+ 
   

@@ -1,0 +1,14 @@
+.opiniones-contenedor {
+  display: grid;
+  grid: {
+    template-columns: repeat(3,1fr);
+    auto-rows: 150px;
+    gap:10px;
+  }
+  
+}
+
+.opinion-item{
+  background:white;
+  padding: 1em;
+}
