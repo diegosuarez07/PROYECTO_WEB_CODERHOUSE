@@ -52,7 +52,12 @@ header {
 
               &.active{
                 text-decoration: underline;
+                color:$colorVioleta;
               }
+              &.active:hover{
+                color:$colorNegro;
+              }
+
             }
           }
         }
@@ -113,6 +118,4 @@ header {
     }
   
   }
-
- 
   

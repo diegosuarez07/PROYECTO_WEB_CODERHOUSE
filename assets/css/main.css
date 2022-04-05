@@ -98,7 +98,10 @@ header {
     border-radius: 25px;
     opacity: 2px; }
   .navbar .navbar-menu .navbar-item a.active {
-    text-decoration: underline; }
+    text-decoration: underline;
+    color: #D344FF; }
+  .navbar .navbar-menu .navbar-item a.active:hover {
+    color: #000; }
 
 .logo-redondeado {
   border-radius: 40px; }
@@ -153,6 +156,40 @@ header {
   height: 10vh;
   position: fixed;
   bottom: 0%; }
+
+.icono-red-social {
+  width: 28px;
+  height: 26px; }
+
+.logo-footer {
+  width: 150px;
+  height: 150px; }
+
+.direccion {
+  background: black;
+  padding: 20px 0;
+  color: #fff;
+  margin-top: 50px; }
+  .direccion .titulo-footer {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 20px; }
+  .direccion .calle, .direccion .telefono, .direccion .correo {
+    margin-bottom: 10px; }
+  .direccion .logo--footer img {
+    margin-top: 70px; }
+
+.social {
+  background: white; }
+  .social .icono-red-social {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    cursor: pointer; }
 
 #hero {
   display: table;
@@ -240,7 +277,6 @@ header {
   border: 2px solid #fff;
   border-radius: 100px;
   color: #fff;
-  animation-name: mover;
   animation-duration: 5s;
   animation-iteration-count: infinite; }
   #hero .btn-services:hover {
