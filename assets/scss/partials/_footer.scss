@@ -31,7 +31,12 @@
 
   .direccion {
       background: black;
-      padding: 20px 0;
+      padding: {
+        top:20px;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+      }
       color: $colorBlanco;
       margin-top: 50px;
       .titulo-footer{
@@ -61,4 +66,23 @@
       border-radius: 50px;
       cursor: pointer;
     }
+  }
+
+  .derechosh6 {
+    margin-top: 10px;
+    color:$colorNegro; 
+  }
+
+  .poster-sula {
+    margin-top: 0;
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+  }
+
+  .titulo-promo-footer{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 10px;
   }
