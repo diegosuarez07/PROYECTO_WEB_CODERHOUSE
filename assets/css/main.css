@@ -80,7 +80,7 @@ header {
   display: flex;
   align-items: center; }
 
-.navbar-item {
+.navbar-item, .navbar .navbar-menu .navbar-item a.active, .navbar .navbar-menu .navbar-item a.active:hover {
   display: inline-block;
   text-align: center; }
 
@@ -88,16 +88,16 @@ header {
   cursor: pointer;
   border-radius: 2px; }
 
-.navbar .navbar-menu .navbar-item a {
+.navbar .navbar-menu .navbar-item a, .navbar .navbar-menu .navbar-item a.active a, .navbar .navbar-menu .navbar-item a.active:hover a {
   text-decoration: none;
   padding: 20px;
   display: inline-block;
   color: #fff; }
-  .navbar .navbar-menu .navbar-item a:hover {
+  .navbar .navbar-menu .navbar-item a:hover, .navbar .navbar-menu .navbar-item a.active:hover a:hover {
     background-image: linear-gradient(to right top, #e12790, #ce2ea1, #b638b1, #9843bd, #734cc7, #5b60d6, #3d72e0, #0081e7, #009ef1, #00b7ee, #00cde3, #55e1d8);
     border-radius: 25px;
     opacity: 2px; }
-  .navbar .navbar-menu .navbar-item a.active {
+  .navbar .navbar-menu .navbar-item a.active, .navbar .navbar-menu .navbar-item a.active:hover a.active {
     text-decoration: underline;
     color: #D344FF; }
   .navbar .navbar-menu .navbar-item a.active:hover {
@@ -133,7 +133,7 @@ header {
     margin-left: -70%; }
   .navbar-menu {
     flex-direction: column; }
-  .navbar-item {
+  .navbar-item, .navbar .navbar-menu .navbar-item a.active, .navbar .navbar-menu .navbar-item a.active:hover {
     border-top: 1px solid #fff; }
   .btn_menu:checked + .navbar {
     background-color: #03C4EB; } }

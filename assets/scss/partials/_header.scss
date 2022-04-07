@@ -51,10 +51,12 @@ header {
               }
 
               &.active{
+                @extend .navbar-item;
                 text-decoration: underline;
                 color: map-get($map: $paletaDeColores, $key: colorVioleta);
               }
               &.active:hover{
+                @extend .navbar-item;
                 color: map-get($map: $paletaDeColores, $key: colorNegro);
               }
 
