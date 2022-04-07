@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    background:$fondoTranparente;
+    background: map-get($map: $fondos, $key: fondoTranparente);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,19 +43,19 @@ header {
               text-decoration: none;
               padding: 20px;
               display: inline-block;
-              color:$colorBlanco;
+              color: map-get($map: $paletaDeColores, $key: colorBlanco);
               &:hover{
-                background-image: $fondoBotonesBarraNavegacion; 
+                background-image: map-get($map: $fondos, $key: fondoBotonesBarraNavegacion); 
                 border-radius: 25px;
                 opacity: 2px;
               }
 
               &.active{
                 text-decoration: underline;
-                color:$colorVioleta;
+                color: map-get($map: $paletaDeColores, $key: colorVioleta);
               }
               &.active:hover{
-                color:$colorNegro;
+                color: map-get($map: $paletaDeColores, $key: colorNegro);
               }
 
             }
@@ -69,7 +69,7 @@ header {
 
 .header {
   .navbar {
-    background:$fondoTranparente; 
+    background: map-get($map: $fondos, $key: fondoTranparente); 
     border-radius: 25px;
   }
 }
@@ -84,10 +84,10 @@ header {
     width: 30px;
     height: 30px;
     padding: 10px;
-    border-right: 1px solid $colorBlanco;
+    border-right: 1px solid map-get($map: $paletaDeColores, $key: colorBlanco);
     &:hover{
       cursor: pointer;
-      background:$fondoTranparente;
+      background: map-get($map: $fondos, $key: fondoTranparente);
     }
 }
 
@@ -100,7 +100,7 @@ header {
   
     .navbar {
       position: absolute;
-      background: $fondoTranparente;
+      background: map-get($map: $fondos, $key: fondoTranparente);
       width: 70%;
       margin-left: -70%;
     }
@@ -110,11 +110,11 @@ header {
     }
   
     .navbar-item {
-      border-top: 1px solid $colorBlanco;
+      border-top: 1px solid map-get($map: $paletaDeColores, $key: colorBlanco);
     }
   
     .btn_menu:checked + .navbar {
-      background-color: $colorCeleste; 
+      background-color: map-get($map: $paletaDeColores, $key: colorCeleste); 
     }
   
   }

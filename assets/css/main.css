@@ -166,7 +166,7 @@ header {
   height: 150px; }
 
 .direccion {
-  background: black;
+  background: #000;
   padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 0;
@@ -184,7 +184,7 @@ header {
     margin-top: 70px; }
 
 .social {
-  background: white; }
+  background: #D344FF; }
   .social .icono-red-social {
     padding: 10px;
     display: inline-block;

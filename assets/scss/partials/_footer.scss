@@ -1,6 +1,6 @@
 .footer {
     display: grid;
-    background-color: transparent;
+    background-color: $fondoTranparente;
     text-align: center;
     width: 100%;
     height: 10vh;
@@ -11,7 +11,7 @@
   
   .footer_bajo {
     display: grid;
-    background-color: transparent; 
+    background-color: $fondoTranparente; 
     text-align: center;
     width: 100%;
     height: 10vh;
@@ -30,14 +30,14 @@
   }
 
   .direccion {
-      background: black;
+      background: map-get($map: $paletaDeColores, $key: colorNegro);
       padding: {
         top:20px;
         bottom: 10px;
         left: 0;
         right: 0;
       }
-      color: $colorBlanco;
+      color: map-get($map: $paletaDeColores, $key: colorBlanco);
       margin-top: 50px;
       .titulo-footer{
         font-size: 32px;
@@ -56,7 +56,7 @@
   }
 
   .social{
-    background: white;
+    background: map-get($map: $paletaDeColores, $key: colorVioleta);
     .icono-red-social {
       padding: 10px;
       display: inline-block;
@@ -70,7 +70,7 @@
 
   .derechosh6 {
     margin-top: 10px;
-    color:$colorNegro; 
+    color:map-get($map: $paletaDeColores, $key: ); 
   }
 
   .poster-sula {
