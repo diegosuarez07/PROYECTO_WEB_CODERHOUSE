@@ -1,32 +1,9 @@
-.footer {
-    display: grid;
-    background-color: map-get($map: $fondos, $key: fondoTranparente);
-    text-align: center;
-    width: 100%;
-    height: 10vh;
-    position: relative;
-    bottom: 0%;
-    padding: 40px;
-  }
-  
-  .footer_bajo {
-    display: grid;
-    background-color: map-get($map: $fondos, $key: fondoTranparente); 
-    text-align: center;
-    width: 100%;
-    height: 10vh;
-    position:fixed;
-    bottom: 0%;
-  }
-
   .icono-red-social{
-    width: 28px;
-    height: 26px;
+    @include sizes(28px,26px);
   }
   
   .logo-footer {
-    width: 150px;
-    height: 150px;
+    @include sizes(150px,150px);
   }
 
   .direccion {
@@ -61,8 +38,7 @@
       padding: 10px;
       display: inline-block;
       margin: 0 20px;
-      width: 70px;
-      height: 70px;
+      @include sizes(70px,70px);
       border-radius: 50px;
       cursor: pointer;
     }
@@ -75,8 +51,7 @@
 
   .poster-sula {
     margin-top: 0;
-    width: 500px;
-    height: 300px;
+    @include sizes(500px,300px);
     border-radius: 50px;
   }
 
