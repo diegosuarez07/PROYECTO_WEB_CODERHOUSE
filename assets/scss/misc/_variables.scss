@@ -30,6 +30,7 @@ $fondoPantallaApagado: url('../image/fondo_pantalla_bar_apagado.jpg');
 $fondoPantallaBlancoNegro: url('../image/fondo_pantalla_bar_blanco_negro.jpg'); 
 $fondoTranparente: transparent; 
 $fondoBotonesBarraNavegacion: linear-gradient(to right top, #e12790, #ce2ea1, #b638b1, #9843bd, #734cc7, #5b60d6, #3d72e0, #0081e7, #009ef1, #00b7ee, #00cde3, #55e1d8); 
+$fondoBotonesBarra2: linear-gradient(to right top, #d344ff, #ba2abb, #971b80, #6e1651, #42132b, #41142b, #41152b, #40162b, #6b1d4f, #93277d, #b737b4, #d34ff4);
 
 $fondos: (
 
@@ -37,8 +38,8 @@ fondoPantallaBar: url('../image/fondo_pantalla_bar.jpg'),
 fondoPantallaApagado: url('../image/fondo_pantalla_bar_apagado.jpg'), 
 fondoPantallaBlancoNegro: url('../image/fondo_pantalla_bar_blanco_negro.jpg'), 
 fondoTranparente: transparent,
-fondoBotonesBarraNavegacion: linear-gradient(to right top, #e12790, #ce2ea1, #b638b1, #9843bd, #734cc7, #5b60d6, #3d72e0, #0081e7, #009ef1, #00b7ee, #00cde3, #55e1d8) 
-
+fondoBotonesBarraNavegacion: linear-gradient(to right top, #e12790, #ce2ea1, #b638b1, #9843bd, #734cc7, #5b60d6, #3d72e0, #0081e7, #009ef1, #00b7ee, #00cde3, #55e1d8), 
+fondoBotonesBarra2: linear-gradient(to right top, #d344ff, #ba2abb, #971b80, #6e1651, #42132b, #41142b, #41152b, #40162b, #6b1d4f, #93277d, #b737b4, #d34ff4)
 );
 
 

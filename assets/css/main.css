@@ -101,7 +101,7 @@ header {
     text-decoration: underline;
     color: #D344FF; }
   .navbar .navbar-menu .navbar-item a.active:hover {
-    color: #000; }
+    color: #fff; }
 
 .logo-redondeado {
   border-radius: 40px; }
@@ -147,7 +147,7 @@ header {
   height: 150px; }
 
 .direccion {
-  background: #000;
+  background-image: linear-gradient(to right top, #000000, #0b0a0a, #141212, #1a1818, #201d1e, #312f2f, #444142, #575555, #7e7c7d, #a7a6a6, #d2d2d2, #ffffff);
   padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 0;
@@ -165,7 +165,7 @@ header {
     margin-top: 70px; }
 
 .social {
-  background: #D344FF; }
+  background: linear-gradient(to right top, #e12790, #ce2ea1, #b638b1, #9843bd, #734cc7, #5b60d6, #3d72e0, #0081e7, #009ef1, #00b7ee, #00cde3, #55e1d8); }
   .social .icono-red-social {
     padding: 10px;
     display: inline-block;
@@ -177,7 +177,7 @@ header {
 
 .derechosh6 {
   margin-top: 10px;
-  color: #000; }
+  color: #fff; }
 
 .poster-sula {
   margin-top: 0;
@@ -328,20 +328,10 @@ header {
     opacity: 0;
     transform: translate3d(0, -70%, 0); } }
 
-@keyframes cambioColor {
-  0% {
-    background: #1c7293; }
-  25% {
-    background: #065a82; }
-  50% {
-    background: #1b3b6f; }
-  100% {
-    background: #21295c; } }
-
 .form-registro {
   width: 400px;
-  height: 400px;
-  background: #1c7293;
+  height: 600px;
+  background-image: linear-gradient(to right top, #e12790, #ce2ea1, #b638b1, #9843bd, #734cc7, #5b60d6, #3d72e0, #0081e7, #009ef1, #00b7ee, #00cde3, #55e1d8);
   padding: 30px;
   margin: auto;
   margin-top: 20px;
@@ -349,10 +339,7 @@ header {
   font-family: "Russo One", sans-serif;
   color: #fff;
   box-shadow: 7px 13px 37px #999;
-  border: 2px solid #000;
-  animation-name: cambioColor;
-  animation-duration: 5s;
-  animation-iteration-count: infinite; }
+  border: 4px solid #000; }
 
 .form-registro h3 {
   font-size: 22px;
@@ -379,13 +366,12 @@ header {
   border: 2px solid #fff;
   padding: 3px;
   color: #fff;
-  margin: 0 0;
+  margin-top: 20px;
   font-size: 16px;
   font-family: "Russo One", sans-serif;
   transition: all 0.5s linear; }
   .form-registro .boton-registro:hover {
-    background: #ff96ad;
-    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+    background: #fff;
     border: 2px solid #000;
     color: #000; }
 

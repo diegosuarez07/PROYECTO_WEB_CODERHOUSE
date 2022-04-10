@@ -1,25 +1,8 @@
-@keyframes cambioColor{
-
-  0%{
-    background: #1c7293; 
-  }
-  25%{
-    background: #065a82;
-  }
-  50%{
-    background: #1b3b6f;
-  }
-  100%{
-    background: #21295c;
-  }
-
-
-}
-
 .form-registro {
     width: 400px;
-    height: 400px;
-    background: $colorAzulado; 
+    height: 600px;
+    //background-image: linear-gradient(to right top, #d344ff, #ba2abb, #971b80, #6e1651, #42132b, #41142b, #41152b, #40162b, #6b1d4f, #93277d, #b737b4, #d34ff4);
+    background-image: map-get($map: $fondos, $key: fondoBotonesBarraNavegacion);
     padding: 30px;
     margin: auto;
     margin-top: 20px;
@@ -27,12 +10,8 @@
     font-family: $font-family-RussoOne;
     color:$colorBlanco;
     box-shadow: 7px 13px 37px $colorGrisaceo;
-    border: 2px solid $colorNegro;
-    animation: {
-      name: cambioColor;
-      duration: 5s;
-      iteration-count: infinite;
-    }
+    border: 4px solid $colorNegro;
+    
     
 
 }
@@ -70,15 +49,14 @@
       border: 2px solid $colorBlanco; 
       padding: 3px;
       color: $colorBlanco; 
-      margin: 0 0;
+      margin-top: 20px;
       font: {
         size: 16px;
         family: $font-family-RussoOne;
       }
       transition:all 0.5s linear;
       &:hover{
-        background: $colorRosa;
-        box-shadow: 0 0 5px $colorRosa, 0 0 25px $colorRosa, 0 0 50px $colorRosa, 0 0 200px $colorRosa;
+        background: $colorBlanco;
         border: 2px solid $colorNegro;
         color:$colorNegro;  
       }

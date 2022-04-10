@@ -1,10 +1,11 @@
+
 .titulo-galeria{
     text-align: center;
     &:hover{
       color:rgb(196, 67, 67); 
     }
   }
-  
+
   .galeria-contenedor{
     display: grid;
     grid: {

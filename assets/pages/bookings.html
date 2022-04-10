@@ -37,14 +37,21 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-md-12">
                     <form class="form-registro form" action="post">
                         <h3>FORMULARIO DE RESERVA 👇</h3>
-                        <input class="controles" type="text" placeholder="Ingrese su nombre" required>
-                        <input class="controles" type="text" placeholder="Ingrese su apellido" required>
+                        <label for="">Ingrese su nombre</label>
+                        <input class="controles" type="text" placeholder="nombre" required>
+                        <label for="">Ingrese su apellido</label>
+                        <input class="controles" type="text" placeholder="apellido" required>
+                        <label for=""">Ingrese su correo electrónico</label>
                         <input class="controles" type="email" placeholder="Ingrese su correo electrónico" required>
+                        <label for="">Ingrese fecha de reserva</label>
                         <input class="controles" type="date" required placeholder="Fecha de reserva">
+                        <label for="">Ingrese hora de reserva</label>
                         <input class="controles" type="time" required>
+                        <label for="">Ingrese cantidad de personas (máximo 6)</label>
+                        <input type="number" name="quantity" min="1" max="6">
                         <input class="boton-registro" type="button" value="REGISTRAR RESERVA! 📝" >
                     </form>
                 </div>

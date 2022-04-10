@@ -7,7 +7,8 @@
   }
 
   .direccion {
-      background: map-get($map: $paletaDeColores, $key: colorNegro);
+      //background-image: linear-gradient(to left bottom, #403b42, #353136, #2b272a, #201d1f, #161415, #161415, #161415, #161415, #201d1f, #2b272a, #353136, #403b42);
+      background-image: linear-gradient(to right top, #000000, #0b0a0a, #141212, #1a1818, #201d1e, #312f2f, #444142, #575555, #7e7c7d, #a7a6a6, #d2d2d2, #ffffff);
       padding: {
         top:20px;
         bottom: 10px;
@@ -33,7 +34,10 @@
   }
 
   .social{
-    background: map-get($map: $paletaDeColores, $key: colorVioleta);
+    //background-image: linear-gradient(to right bottom, #d344ff, #ba2abb, #971b80, #6e1651, #42132b, #42132b, #42132b, #42132b, #6e1651, #971b80, #ba2abb, #d344ff);
+    //background-image: linear-gradient(to right top, #000000, #0b0a0a, #141212, #1a1818, #201d1e, #312f2f, #444142, #575555, #7e7c7d, #a7a6a6, #d2d2d2, #ffffff);
+    //background-image: linear-gradient(to right top, #000000, #0b0a0a, #141212, #1a1818, #201d1e, #352328, #4b2732, #622b3a, #8b2958, #b02583, #ca2bbb, #d344ff);
+    background: map-get($map: $fondos, $key: fondoBotonesBarraNavegacion);
     .icono-red-social {
       padding: 10px;
       display: inline-block;
@@ -46,7 +50,7 @@
 
   .derechosh6 {
     margin-top: 10px;
-    color:map-get($map: $paletaDeColores, $key: colorNegro); 
+    color:map-get($map: $paletaDeColores, $key: colorBlanco); 
   }
 
   .poster-sula {

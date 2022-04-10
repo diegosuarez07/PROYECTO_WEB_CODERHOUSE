@@ -57,7 +57,7 @@ header {
               }
               &.active:hover{
                 @extend .navbar-item;
-                color: map-get($map: $paletaDeColores, $key: colorNegro);
+                color: map-get($map: $paletaDeColores, $key: colorBlanco);
               }
 
             }
