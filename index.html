@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,user-scalable=no ,initial-scale=1.0, 
-    maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Somos Bar Sula, un bar donde podés pasar un grato momento por las noches con amigos y disfrutar de espectacular gastronomía y la mejor atención">
     <meta name="keywords" content="BAR, BEBIDAS, BEBIDA, HAMBURGUESA, PAPAS FRITAS, JOVENES, NOCHE, DISFRUTAR">
     <meta name="author" content="Diego Suarez">
@@ -18,96 +17,86 @@
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Permanent+Marker&family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <input type="checkbox" class="btn_menu">
-        <label class="label_menu" for="btn_menu"><img src="./assets/image/menu_hamburguesa_24.png" alt=""></label>
-        <nav class="navbar navbar-expand-lg">
-            <ul class="navbar-menu navbar-expand-lg navbar-nav">
-                <li class="navbar-item"><img class="logo-redondeado" src="./assets/image/logo_sula.png" alt="logo" width="80px" height="80px"></li>
-                <li class="navbar-item"><a class="active" href="#">HOME</a></li>
-                <li class="navbar-item"><a href="./assets/pages/bookings.html" class="enlace">RESERVAR MESA</a></li>
-                <li class="navbar-item"><a href="./assets/pages/gallery.html" class="enlace">GALERÍA</a></li>
-                <li class="navbar-item"><a href="./assets/pages/opinions.html" class="enlace">OPINIONES</a></li>
-                <li class="navbar-item"><a href="./assets/pages/about_us.html" class="enlace">ACERCA DE NOSOTROS!</a></li>
-                <li class="navbar-item"><a href="#"><img src="./assets/icons/icono_instagram.png" alt="facebook" width="28px" height="26px"></a></li>
-                <li class="navbar-item"><a href="#"><img src="./assets/icons/icono_facebook.png" alt="facebook" width="28px" height="26px"></a></li>
-                <li class="navbar-item"><a href="#"><img src="./assets/icons/icono_whatsapp.png" alt="whatsapp" width="28px" height="26px"></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    
 
-        <div class="container2 text-center>
-            <div class="row">
-                <div class="col">
-                    <h1 class="titulo-animado">!SOMOS
-                        <div class="lista">
-                            <div class="item">
-                                SULA!❤️
-                            </div>
-                            <div class="item">
-                                DIVERSIÓN!🥳
-                            </div>
-                            <div class="item">
-                                ALEGRÍA!😃
-                            </div>
+
+    <div class="container col-sm-4 bg-dark mt-5 rounded shadow container-login">
+        <div class="row align-items-stretch">
+            <div class="col">
+                <h2 class="text-center py-5">BIENVENIDO A <span class="sula-coloreado">SULA!</span></h2>
+
+                <form class="form-login p-4" action="#">
+                    <div class="mb-4">
+                        <label for="email" class="form-label">CORREO ELECTRÓNICO</label>
+                        <input type="email" class="form-control" name="email" placeholder="Ingrese correo electrónico" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">CONTRASEÑA</label>
+                        <input type="password" class="form-control" name="password" placeholder="Ingrese contraseña" maxlength="8" required>
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" name="conectado" class="form-check-input">
+                        <label for="conectado" class="form-check-label">Mantenerme conectado</label>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary"><a class="inicio-sesion" href="/home.html">Iniciar Sesión</a></button>
+                    </div>
+
+                    <div class="my-3">
+                        <span>No tienes cuenta? <a href="#">Regístrate</a></span>
+                        <span><a href="#">Recuperar contraseña</a></span>
+                    </div>
+
+                </form>
+
+                <!-- Login con redes sociales -->
+                <div class="container w-100 my-5 form-login">
+                    <div class="row text-center">
+                        <div class="col-12">Iniciar Sesión</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-outline-primary w-100 my-1">
+                                <div class="row align-items-center">
+                                    <div class="col-2 d-none d-md-block">
+                                        <img src="./assets/icons/icono_facebook.png" alt="icono facebook" width="28px" height="28px">
+                                    </div>
+                                    <div class="col-12 col-md-10 text-center">
+                                        Facebook
+                                    </div>
+                                </div>
+                            </button>
                         </div>
-                    </h1>
-                </div>
-            </div>
-        </div>
-
-        <section id="hero">
-            <div class="hero-container">
-                <div class="actions">
-                    <img class="logo-actions" src="./assets/image/logo_sula.png" alt="logo de sula" width="220px" height="220px">
-                </div>
-                <div class="actions">
-                    <a href="#" class="btn-services">✨HACEMOS DE TUS NOCHES, RECUERDOS INOLVIDABLES✨</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="direccion">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h4 class="titulo-footer">CONTACTO</h4>
-                        <p class="calle">Avenida Colon 123, Córdoba Capital, Argentina.</p>
-                        <p class="telefono">Numero de teléfono: 0810-333-9090</p>
-                        <p class="correo">Nuestro correo: barsula@gmail.com</p>
-                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.026859113196!2d-64.18663213767664!3d-31.413386059548962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2829c76837d%3A0xece3c7c73200172e!2sAv.%20Col%C3%B3n%20123%2C%20X5000EPB%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1649200275620!5m2!1ses!2sar" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="col-md-6">
-                        <h5 class="titulo-promo-footer">APROVECHÁ ESTA PROMO!😎</h5>
-                        <img class="poster-sula" src="./assets/image/poster_sula.png" alt="poster 2x1">
+                        <div class="col">
+                            <button class="btn btn-outline-danger w-100 my-1">
+                                <div class="row align-items-center">
+                                    <div class="col-2 d-none d-md-block">
+                                        <img src="./assets/icons/icono_instagram.png" alt="icono facebook" width="28px" height="28px">
+                                    </div>
+                                    <div class="col-12 col-md-10 text-center">
+                                        Instagram
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
-        <div class="social">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-12">
-                        <img class="icono-red-social" src="./assets/icons/icono_facebook.png" alt="facebook">
-                        <img src="./assets/icons/icono_instagram.png" alt="instagram" class="icono-red-social">
-                        <img src="./assets/icons/icono_whatsapp.png" alt="whatsapp" class="icono-red-social">
-                        <h6 class="text-center derechosh6">- BAR SULA - TODOS LOS DERECHOS RESERVADOS -</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+
+
+    
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-
+</script>
 </body>
 </html>
-
-
-

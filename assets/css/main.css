@@ -191,6 +191,24 @@ header {
   font-weight: 300;
   margin-bottom: 10px; }
 
+.form-login {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.bg-login {
+  background-image: url("/assets/image/logo_sula.png");
+  background-size: contain; }
+
+.container-login {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.inicio-sesion {
+  text-decoration: none;
+  color: #fff; }
+
+.inicio-sesion:hover {
+  color: #fff; }
+
 #hero {
   display: table;
   width: 100%;

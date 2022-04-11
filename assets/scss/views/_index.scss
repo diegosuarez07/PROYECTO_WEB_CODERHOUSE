@@ -1,0 +1,23 @@
+.form-login{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bg-login{
+    background-image: url('/assets/image/logo_sula.png');
+    background-size: contain;
+}
+
+.container-login{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inicio-sesion{
+    text-decoration: none;
+    color: $colorBlanco;
+    
+}
+
+.inicio-sesion:hover{
+    color: $colorBlanco;
+}
