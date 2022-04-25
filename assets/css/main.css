@@ -123,6 +123,19 @@ header {
     cursor: pointer;
     background: transparent; }
 
+.bar-btn {
+  font-size: 25px;
+  color: #fff;
+  margin-right: 20px;
+  cursor: pointer; }
+
+#check {
+  display: none; }
+  #check:checked ~ .navbar-menu {
+    height: 100vh; }
+  #check:checked ~ .navbar-menu li {
+    display: block; }
+
 @media screen and (max-width: 768px) {
   .label_menu {
     display: block; }

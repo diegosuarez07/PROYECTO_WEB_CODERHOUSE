@@ -15,17 +15,18 @@
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
     <link rel="shortcut icon" href="./assets/image/icono_sula_32x32.ico">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Permanent+Marker&family=Russo+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/59522a8396.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
 
 
-    <div class="container col-sm-4 bg-dark mt-5 rounded shadow container-login h-25">
+    <div class="container col-sm-4 bg-dark mt-5 rounded shadow container-login h-25" id="form-login">
         <div class="row align-items-stretch">
             <div class="col">
                 <h2 class="text-center pt-4">BIENVENIDO A <span class="sula-coloreado">SULA!</span></h2>
 
-                <form class="form-login p-4" action="#" method="post">
+                <form class="form-login p-4" action="" method="post">
                     <div class="mb-4">
                         <label for="email" class="form-label">CORREO ELECTRÓNICO</label>
                         <input type="email" class="form-control" name="email" placeholder="Ingrese correo electrónico" id="email">
@@ -42,7 +43,8 @@
                     </div>
 
                     <div class="d-grid">
-                        <button type="submit" class="btn btn-primary"><a class="inicio-sesion" href="/home.html">Iniciar Sesión</a></button>
+                        <input type="button" onclick="ingresar()" value="Iniciar Sesión" class="btn btn-primary" name="" id="">
+                        <!-- <button type="submit" class="btn btn-primary"><a class="inicio-sesion" href="/home.html">Iniciar Sesión</a></button> -->
                     </div>
 
                     <div class="my-3">
