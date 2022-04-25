@@ -209,6 +209,16 @@ header {
 .inicio-sesion:hover {
   color: #fff; }
 
+.warning-password {
+  color: #F70432;
+  padding-bottom: 0;
+  font-size: 20px; }
+
+.warning-email {
+  color: #F70432;
+  padding-bottom: 0;
+  font-size: 20px; }
+
 #hero {
   display: table;
   width: 100%;

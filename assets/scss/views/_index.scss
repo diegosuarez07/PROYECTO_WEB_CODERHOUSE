@@ -1,5 +1,6 @@
 .form-login{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .bg-login{
@@ -20,4 +21,17 @@
 
 .inicio-sesion:hover{
     color: $colorBlanco;
+}
+
+.warning-password{
+    color: $colorRojo;
+    padding-bottom: 0;
+    font-size: 20px;
+    
+}
+
+.warning-email{
+    color: $colorRojo;
+    padding-bottom: 0;
+    font-size: 20px;
 }

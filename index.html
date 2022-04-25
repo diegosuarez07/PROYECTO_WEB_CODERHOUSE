@@ -20,19 +20,21 @@
     
 
 
-    <div class="container col-sm-4 bg-dark mt-5 rounded shadow container-login">
+    <div class="container col-sm-4 bg-dark mt-5 rounded shadow container-login h-25">
         <div class="row align-items-stretch">
             <div class="col">
-                <h2 class="text-center py-5">BIENVENIDO A <span class="sula-coloreado">SULA!</span></h2>
+                <h2 class="text-center pt-4">BIENVENIDO A <span class="sula-coloreado">SULA!</span></h2>
 
-                <form class="form-login p-4" action="#">
+                <form class="form-login p-4" action="#" method="post">
                     <div class="mb-4">
                         <label for="email" class="form-label">CORREO ELECTRÓNICO</label>
-                        <input type="email" class="form-control" name="email" placeholder="Ingrese correo electrónico" required>
+                        <input type="email" class="form-control" name="email" placeholder="Ingrese correo electrónico" id="email">
+                        <p class="warning-email" id="warning-email"></p>
                     </div>
                     <div class="mb-4">
                         <label for="password" class="form-label">CONTRASEÑA</label>
-                        <input type="password" class="form-control" name="password" placeholder="Ingrese contraseña" maxlength="8" required>
+                        <input type="password" class="form-control" name="password" placeholder="Ingrese contraseña" maxlength="8" id="password">
+                        <p class="warning-password" id="warning-password"></p>
                     </div>
                     <div class="mb-4 form-check">
                         <input type="checkbox" name="conectado" class="form-check-input">
@@ -51,7 +53,7 @@
                 </form>
 
                 <!-- Login con redes sociales -->
-                <div class="container w-100 my-5 form-login">
+                <div class="container w-100 my-0 form-login pb-3">
                     <div class="row text-center">
                         <div class="col-12">Iniciar Sesión</div>
                     </div>
@@ -62,7 +64,7 @@
                                     <div class="col-2 d-none d-md-block">
                                         <img src="./assets/icons/icono_facebook.png" alt="icono facebook" width="28px" height="28px">
                                     </div>
-                                    <div class="col-12 col-md-10 text-center">
+                                    <div class="col-12 col-md-10 text-center my-0">
                                         Facebook
                                     </div>
                                 </div>
@@ -74,7 +76,7 @@
                                     <div class="col-2 d-none d-md-block">
                                         <img src="./assets/icons/icono_instagram.png" alt="icono facebook" width="28px" height="28px">
                                     </div>
-                                    <div class="col-12 col-md-10 text-center">
+                                    <div class="col-12 col-md-10 text-center my-0">
                                         Instagram
                                     </div>
                                 </div>
@@ -98,5 +100,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 </script>
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
