@@ -25,6 +25,7 @@ window.addEventListener("DOMContentLoaded", () => {
             const navbar_menu = document.querySelector('.navbar-menu'); 
             //titulo_animado.style.display = "none";
             navbar_menu.classList.toggle('show'); 
+            
         })
     }
 })
