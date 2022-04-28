@@ -35,7 +35,7 @@ header {
   cursor: pointer;
   border-radius: 2px;
 }
-
+//navbar seria mi nav, navbar-menu es el ul y navbar-item seria los li
 .navbar 
     { .navbar-menu {
           .navbar-item {
@@ -76,6 +76,19 @@ header {
   }
 }
 
+.btn-menu-hamburguer{
+  margin-right: 30px;
+  font-size: 20px;
+  color: $colorBlanco;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar-menu.show{
+  top:65px;
+}
+
+
 
 .btn_menu {
     display: none;
@@ -93,48 +106,73 @@ header {
     }
 }
 
-.bar-btn{
-  font-size: 25px;
-  color: $colorBlanco;
-  margin-right: 20px;
-  cursor: pointer;
-}
-
-#check {
-  display: none;
-  &:checked ~ .navbar-menu {
-    height: 100vh;
-  }
-  &:checked ~ .navbar-menu li{
-    display: block;
-  }
-}
-
-  
-  @media screen and (max-width:768px) {
-  
-    .label_menu {
-      display: block;
-    }
-  
-    .navbar {
-      position: absolute;
-      background: map-get($map: $fondos, $key: fondoTranparente);
-      width: 70%;
-      margin-left: -70%;
-    }
-  
-    .navbar-menu {
-      flex-direction: column;
-    }
-  
+@media screen and (max-width:952px){
+  .navbar-menu {
     .navbar-item {
-      border-top: 1px solid map-get($map: $paletaDeColores, $key: colorBlanco);
+      a {
+        font-size: 16px;
+      }
     }
-  
-    .btn_menu:checked + .navbar {
-      background-color: map-get($map: $paletaDeColores, $key: colorCeleste); 
-    }
-  
   }
+}
+
+@media screen and (max-width:858px){
+
+  .navbar {
+    height: 65px;
+  }
+  .btn-menu-hamburguer{ 
+    display: inline-flex;
+  }
+  .navbar-menu{
+    position: fixed;
+    width: 100vw;
+    height: calc(100% - 65px);
+    background: #414141;
+    top: -100vh;
+    text-align: center;
+    transition: all .4s;
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width:858px) and (orientation:landscape){
+  .navbar-menu{
+    overflow: scroll;
+    height: calc(100% - 65px);
+    .navbar-item{
+      margin: 5px 0 0 0;
+    }
+  }
+}
+
+
+  
+  // @media screen and (max-width:768px) {
+  
+  //   .label_menu {
+  //     display: block;
+  //   }
+  
+  //   .navbar {
+  //     position: absolute;
+  //     background: map-get($map: $fondos, $key: fondoTranparente);
+  //     width: 70%;
+  //     margin-left: -70%;
+  //   }
+  
+  //   .navbar-menu {
+  //     flex-direction: column;
+  //   }
+  
+  //   .navbar-item {
+  //     border-top: 1px solid map-get($map: $paletaDeColores, $key: colorBlanco);
+  //   }
+  
+  //   .btn_menu:checked + .navbar {
+  //     background-color: map-get($map: $paletaDeColores, $key: colorCeleste); 
+  //   }
+  
+  // }
   

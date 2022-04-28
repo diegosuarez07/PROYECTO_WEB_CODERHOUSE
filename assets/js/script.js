@@ -17,4 +17,12 @@ function ingresar(){
 
 }
 
-
+window.addEventListener("DOMContentLoaded", () => {
+    const btn_menu_hamburguer = document.querySelector('.btn-menu-hamburguer');
+    if(btn_menu_hamburguer){
+        btn_menu_hamburguer.addEventListener('click', () => {
+            const navbar_menu = document.querySelector('.navbar-menu'); 
+            navbar_menu.classList.toggle('show'); 
+        })
+    }
+})
