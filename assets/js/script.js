@@ -5,6 +5,7 @@ const password = document.getElementById("password");
 const formlogin = document.getElementById("form-login"); 
 const warningEmail = document.getElementById("warning-email"); 
 const warningPassword = document.getElementById("warning-password"); 
+const titulo_animado = document.getElementById("titulo_animado"); 
 
 function ingresar(){
 
@@ -22,6 +23,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if(btn_menu_hamburguer){
         btn_menu_hamburguer.addEventListener('click', () => {
             const navbar_menu = document.querySelector('.navbar-menu'); 
+            //titulo_animado.style.display = "none";
             navbar_menu.classList.toggle('show'); 
         })
     }
