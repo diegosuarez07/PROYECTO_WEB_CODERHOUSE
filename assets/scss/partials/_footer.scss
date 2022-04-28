@@ -69,6 +69,20 @@
   @media screen and (max-width:958px){
     .poster-sula{
       @include sizes(100%,300px);
+      padding: 10px;
+    }
+    .mapa{
+      @include sizes(100%,150px);
+      padding: 10px;
+    }
+    .titulo-footer{
+      text-align: center;
+    }
+    .titulo-promo-footer{
+      text-align: center;
+    }
+    .calle, .telefono, .correo{
+      text-align: center;
     }
   }
   
