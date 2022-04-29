@@ -41,3 +41,15 @@
   .sula-coloreado {
     color: $colorVioleta;
   }
+
+  @media screen and (max-width:958px){
+    // .div_foto_dueño{
+    //   width: 100%;
+    // }
+
+    .div__foto_dueño{
+      padding: 20px;
+      align-items: center;
+    }
+
+  }

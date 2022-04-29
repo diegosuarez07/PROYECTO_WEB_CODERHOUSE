@@ -497,6 +497,11 @@ header {
 .sula-coloreado {
   color: #D344FF; }
 
+@media screen and (max-width: 958px) {
+  .div__foto_dueño {
+    padding: 20px;
+    align-items: center; } }
+
 .nombre-cliente {
   color: #D344FF; }
 
