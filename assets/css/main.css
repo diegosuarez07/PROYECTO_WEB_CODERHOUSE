@@ -133,9 +133,49 @@ header {
     cursor: pointer;
     background: transparent; }
 
+@media screen and (max-width: 1000px) {
+  .navbar {
+    height: 65px; }
+  .btn-menu-hamburguer {
+    display: inline-flex; }
+  .navbar-menu {
+    position: fixed;
+    width: 100vw;
+    height: calc(100% - 65px);
+    background: #414141;
+    top: -100vh;
+    text-align: center;
+    transition: all .4s;
+    flex-direction: column; } }
+
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+  .navbar-menu {
+    overflow: scroll;
+    height: calc(100% - 65px); }
+    .navbar-menu .navbar-item, .navbar .navbar-menu .navbar-item a.active, .navbar .navbar-menu .navbar-item a.active:hover {
+      margin: 5px 0 0 0; } }
+
 @media screen and (max-width: 952px) {
-  .navbar-menu .navbar-item a, .navbar .navbar-menu .navbar-item a.active a, .navbar .navbar-menu .navbar-item a.active:hover a {
-    font-size: 16px; } }
+  .navbar {
+    height: 65px; }
+  .btn-menu-hamburguer {
+    display: inline-flex; }
+  .navbar-menu {
+    position: fixed;
+    width: 100vw;
+    height: calc(100% - 65px);
+    background: #414141;
+    top: -100vh;
+    text-align: center;
+    transition: all .4s;
+    flex-direction: column; } }
+
+@media screen and (max-width: 952px) and (orientation: landscape) {
+  .navbar-menu {
+    overflow: scroll;
+    height: calc(100% - 65px); }
+    .navbar-menu .navbar-item, .navbar .navbar-menu .navbar-item a.active, .navbar .navbar-menu .navbar-item a.active:hover {
+      margin: 5px 0 0 0; } }
 
 @media screen and (max-width: 858px) {
   .navbar {
